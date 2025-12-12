@@ -15,6 +15,7 @@ driver_service = Service(ChromeDriverManager().install())  # Automatically handl
 # Initialize WebDriver with Service
 driver = webdriver.Chrome(service=driver_service)
 
+
 # Step 1: Open the Website
 website_url = ("https://")  # Replace with the target website URL
 driver.get(website_url)
@@ -27,7 +28,7 @@ login_button = driver.find_element(By.CSS_SELECTOR, ".top-session-button.button.
 login_button.click()
 
 # Step 4: Wait for the login form to appear
-time.sleep(2)
+time.sleep(10)
 
 # Step 5: Enter Username
 username_field = driver.find_element(By.CLASS_NAME, "input")
