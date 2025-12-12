@@ -1,2 +1,5 @@
 # Templates
-this is a workable repo that will contain all stuffs needed to work a prototype
+
+##login with selenium
+*what the code does*
+this is a convinient way of loging in a website using an automated bot . the logins button may vary according to website
