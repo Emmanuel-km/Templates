@@ -10,3 +10,5 @@ this is a convinient way of loging in a website using an automated bot . the log
 
 ## login 📁 
 so a virtual fLask environment is created, and login html file is run
+
+<hr>
